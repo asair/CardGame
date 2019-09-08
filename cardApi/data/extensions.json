@@ -1,0 +1,54 @@
+{
+    "extensions":
+    [
+        {
+            "name": "Armor",
+            "description": "Add 50 defense points",
+            "cd": 4,
+            "solid_cost": 1000,
+            "energy_cost": 0
+        },
+        {
+            "name": "Shield",
+            "description": "Add 20 defense points, regenerates 5 points per round",
+            "cd": 6,
+            "solid_cost": 2000,
+            "energy_cost": 100
+        },
+        {
+            "name": "Research",
+            "description": "Generate additional blueprint every second round",
+            "cd": 3,
+            "solid_cost": 1000,
+            "energy_cost": 50
+        },
+        {
+            "name": "Hangar",
+            "description": "Allow to produce ships, reduce build time by 0.5",
+            "cd": 2,
+            "solid_cost": 1000,
+            "energy_cost": 20
+        },
+        {
+            "name": "Factory",
+            "description": "Produce 2 modules per round",
+            "cd": 2,
+            "solid_cost": 1200,
+            "energy_cost": 30
+        },
+        {
+            "name": "Reactor",
+            "description": "Produce 100 enegy per round",
+            "cd": 3,
+            "solid_cost": 2000,
+            "energy_cost": 0
+        },
+        {
+            "name": "Scanner",
+            "description": "Extends the base vision by 10",
+            "cd": 1,
+            "solid_cost": 500,
+            "energy_cost": 10
+        }
+    ]
+}

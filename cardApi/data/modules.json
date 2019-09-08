@@ -1,0 +1,110 @@
+{
+    "weapons":
+    [],
+    "shields":
+    [
+        {
+            "name": "Laser Deflector V1",
+            "effective": "laser",
+            "capacity": 2,
+            "reduction": 50,
+            "allowed_for": "fighter"
+        },
+        {
+            "name": "Plasma Nullifier V1",
+            "effective": "plasma",
+            "capacity": 3,
+            "reduction": 30,
+            "allowed_for": "fighter"
+        },
+        {
+            "name": "Projectile Disruptor V2",
+            "effective": "projectile",
+            "capacity": "1",
+            "reduction": 70,
+            "allowed_for": "fighter"
+        },
+        {
+            "name": "Force Field V1",
+            "effective": "all",
+            "capacity": 20,
+            "reduction": 60,
+            "allowed_for": "frigate"
+        }
+    ],
+    "drones":
+    [
+        {
+            "name": "Mining Drone V1",
+            "description": "Regular mining drone collecting 10 units per round",
+            "slot_size": 1,
+            "upgraded_from": "",
+            "upgraded_count": 0,
+            "allowed_on": ["Small Collector", "Medium Collector", "Big Collector"]
+        },
+        {
+            "name": "Mining Drone V2",
+            "description": "Upgraded mining drone collecting 15 units per round",
+            "slot_size": 1,
+            "upgraded_from": "Mining Drone V1",
+            "upgraded_count": 4,
+            "allowed_on": ["Small Collector", "Medium Collector", "Big Collector"]
+        },
+        {
+            "name": "Mining Drone V3",
+            "description": "Upgraded mining drone collecting 25 units per round",
+            "slot_size": 1,
+            "upgraded_from": "Mining Drone V2",
+            "upgraded_count": 6,
+            "allowed_on": ["Medium Collector", "Big Collector"]
+        },
+        {
+            "name": "Mining Drone V4",
+            "description": "Upgraded mining drone collecting 35 units per round",
+            "slot_size": 1,
+            "upgraded_from": "Mining Drone V3",
+            "upgraded_count": 8,
+            "allowed_on": ["Medium Collector", "Big Collector"]
+        },
+        {
+            "name": "Mining Drone V5",
+            "description": "Elite mining drone collecting 50 units per round",
+            "slot_size": 1,
+            "upgraded_from": "Mining Drone V4",
+            "upgraded_count": 10,
+            "allowed_on": ["Big Collector"]
+        },
+        {
+            "name": "Repair Drone V1",
+            "description": "Basic repair drone fixing 2 armor units per round",
+            "slot_size": 1,
+            "upgraded_from": "",
+            "upgraded_count": 5,
+            "allowed_for": "fighter"
+        },
+        {
+            "name": "Repair Drone V2",
+            "description": "Upgraded repair drone fixing 3 armor units per round",
+            "slot_size": 1,
+            "upgraded_from": "Repair Drone V1",
+            "upgraded_count": 10,
+            "allowed_for": "corvette"
+        },
+        {
+            "name": "Repair Drone V3",
+            "description": "Upgraded repair drone fixing 5 armor units per round",
+            "slot_size": 1,
+            "upgraded_from": "Repair Drone V2",
+            "upgraded_count": 15,
+            "allowed_for": "frigate"
+        },
+        {
+            "name": "Repair Drone V4",
+            "description": "Elite repair drone fixing 8 armor units per round",
+            "slot_size": 1,
+            "upgraded_from": "Repair Drone V3",
+            "upgraded_count": 20,
+            "allowed_for": "destroyer"
+        }
+    ]
+}

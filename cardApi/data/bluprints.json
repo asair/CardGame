@@ -1,0 +1,234 @@
+{
+    "common":
+    [
+        {
+            "name": "Small Collector",
+            "class": "collector",
+            "description": "Small collector without any weapon capability",
+            "cd": 1,
+            "solid_cost": 100,
+            "weapon_slots": 0,
+            "module_slots": 3,
+            "armor": 5,
+            "speed": 10
+        },
+        {
+            "name": "Medium Collector",
+            "class": "collector",
+            "description": "Medium collector with small weapon capability",
+            "cd": 2,
+            "solid_cost": 200,
+            "weapon_slots": 1,
+            "module_slots": 5,
+            "armor": 10,
+            "speed": 8
+        },
+        {
+            "name": "Big Collector",
+            "class": "collector",
+            "description": "Big collector with small weapon capability",
+            "cd": 3,
+            "solid_cost": 300,
+            "weapon_slots": 2,
+            "module_slots": 7,
+            "armor": 20,
+            "speed": 7
+        }
+    ],
+    "imperial":
+    [
+        {
+            "name": "Attacker",
+            "class": "fighter",
+            "description": "Decent firepower interception ship",
+            "cd": 3,
+            "solid_cost": 300,
+            "weapon_slots": 4,
+            "module_slots": 2,
+            "armor": 15,
+            "speed": 18
+        },
+        {
+            "name": "Defender",
+            "class": "fighter",
+            "description": "Decent firepower defensive ship",
+            "cd": 3,
+            "solid_cost": 300,
+            "weapon_slots": 3,
+            "module_slots": 3,
+            "armor": 25,
+            "speed": 12
+        },
+        {
+            "name": "Escorter",
+            "class": "corvette",
+            "description": "Medium firepower mutli purpose ship",
+            "cd": 5,
+            "solid_cost": 500,
+            "weapon_slots": 5,
+            "module_slots": 4,
+            "armor": 30,
+            "speed": 12
+        },
+        {
+            "name": "Assaulter",
+            "class": "frigate",
+            "description": "Main assault ship",
+            "cd": 8,
+            "solid_cost": 900,
+            "weapon_slots": 9,
+            "module_slots": 6,
+            "armor": 80,
+            "speed": 10
+        },
+        {
+            "name": "Guard",
+            "class": "frigate",
+            "description": "Resilent defensive ship",
+            "cd": 6,
+            "solid_cost": 800,
+            "weapon_slots": 6,
+            "module_slots": 8,
+            "armor": 120,
+            "speed": 6
+        },
+        {
+            "name": "Hammer",
+            "class": "destroyer",
+            "description": "Powerful assault ship",
+            "cd": 12,
+            "solid_cost": 2500,
+            "weapon_slots": 16,
+            "module_slots": 7,
+            "armor": 160,
+            "speed": 7
+        }
+    ],
+    "shade":
+    [
+        {
+            "name": "Ghost",
+            "class": "fighter",
+            "description": "Fast interception ship",
+            "cd": 2,
+            "solid_cost": 200,
+            "weapon_slots": 2,
+            "module_slots": 1,
+            "armor": 10,
+            "speed": 20
+        },
+        {
+            "name": "Shade",
+            "class": "fighter",
+            "description": "Decent firepower interception ship",
+            "cd": 3,
+            "solid_cost": 300,
+            "weapon_slots": 4,
+            "module_slots": 2,
+            "armor": 15,
+            "speed": 17
+        },
+        {
+            "name": "Phantom",
+            "class": "corvette",
+            "description": "Decent firepower assault ship ship",
+            "cd": 5,
+            "solid_cost": 500,
+            "weapon_slots": 6,
+            "module_slots": 3,
+            "armor": 25,
+            "speed": 14
+        },
+        {
+            "name": "Spectrum",
+            "class": "corvette",
+            "description": "High reliability defensive ship",
+            "cd": 4,
+            "solid_cost": 450,
+            "weapon_slots": 4,
+            "module_slots": 4,
+            "armor": 40,
+            "speed": 7
+        },
+        {
+            "name": "Wraith",
+            "class": "frigate",
+            "description": "Multi purpose frigate ship",
+            "cd": 7,
+            "solid_cost": 1000,
+            "weapon_slots": 8,
+            "module_slots": 8,
+            "armor": 90,
+            "speed": 10
+        },
+        {
+            "name": "Nightmare",
+            "class": "destroyer",
+            "description": "Heavy assaullt ship",
+            "cd": 10,
+            "solid_cost": 2000,
+            "weapon_slots": 12,
+            "module_slots": 7,
+            "armor": 150,
+            "speed": 8
+        }
+    ],
+    "arcane":
+    [
+        {
+            "name": "Flash",
+            "class": "fighter",
+            "description": "Fast scout ship",
+            "cd": 1,
+            "solid_cost": 150,
+            "weapon_slots": 1,
+            "module_slots": 1,
+            "armor": 10,
+            "speed": 22
+        },
+        {
+            "name": "Blink",
+            "class": "fighter",
+            "description": "Decent firepower interception ship",
+            "cd": 3,
+            "solid_cost": 350,
+            "weapon_slots": 4,
+            "module_slots": 3,
+            "armor": 15,
+            "speed": 16
+        },
+        {
+            "name": "Shine",
+            "class": "corvette",
+            "description": "Medium firepower mutli purpose ship",
+            "cd": 5,
+            "solid_cost": 500,
+            "weapon_slots": 5,
+            "module_slots": 3,
+            "armor": 35,
+            "speed": 12
+        },
+        {
+            "name": "Phaseshift",
+            "class": "frigate",
+            "description": "Swift frigate ship",
+            "cd": 6,
+            "solid_cost": 950,
+            "weapon_slots": 9,
+            "module_slots": 5,
+            "armor": 70,
+            "speed": 11
+        },
+        {
+            "name": "Thunder",
+            "class": "destroyer",
+            "description": "Versatile attack warstation",
+            "cd": 11,
+            "solid_cost": 2250,
+            "weapon_slots": 16,
+            "module_slots": 7,
+            "armor": 140,
+            "speed": 9
+        }
+    ]
+}
